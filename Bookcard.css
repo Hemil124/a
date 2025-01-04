@@ -1,0 +1,45 @@
+/* 
+    Created on : Jun 16, 2024, 10:02:51 PM
+    Author     : HEMIL
+*/
+.container 
+        {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            
+            /*border-color: red;*/
+        }
+        .card
+        {
+            background: #eeeeed;
+            padding: 30px;
+            margin: 10px;
+            border-radius: 3%;
+            text-align: center;
+        }
+        .title
+        {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .author
+        {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .review
+        {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .price {
+            color: red;
+            font-size: 18px;  
+        }
+        .original-price {
+            color: #888;
+            text-decoration: line-through;
+        }
